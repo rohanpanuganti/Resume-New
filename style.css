@@ -17,12 +17,12 @@ body {
 
 
 .left {
-    flex: 35%;
+    flex: 37%;
     border-right: 4px solid #98989C;
 }
 
 .right{
-    flex: 65%;
+    flex: 63%;
     padding-right: 5px;
 }
 
@@ -61,17 +61,30 @@ p {
     font-size: 16px;
 }
 
-#red {
+#purple {
 	position: relative;
 }
 
-#red::after{
+#purple::after{
 	content: '';
-    border-bottom: 4px solid #DD5144;
+    border-bottom: 4px solid #b57EDC;
     position: absolute;
     left: 0;
     top: 120%;
     width: 73%;
+}
+
+#pink {
+	position: relative;
+}
+
+#pink::after{
+	content: '';
+    border-bottom: 4px solid #FFC1CC;
+    position: absolute;
+    left: 0;
+    top: 120%;
+    width: 73%
 }
 
 #blue {
@@ -80,33 +93,20 @@ p {
 
 #blue::after{
 	content: '';
-    border-bottom: 4px solid #4C8BF5;
+    border-bottom: 4px solid #89CFF0;
     position: absolute;
     left: 0;
     top: 120%;
     width: 73%
 }
 
-#green {
+#violet {
 	position: relative;
 }
 
-#green::after{
+#violet::after{
 	content: '';
-    border-bottom: 4px solid #1DA462;
-    position: absolute;
-    left: 0;
-    top: 120%;
-    width: 73%
-}
-
-#yellow {
-	position: relative;
-}
-
-#yellow::after{
-	content: '';
-    border-bottom: 4px solid #FFCD46;
+    border-bottom: 4px solid #7C5295;
     position: absolute;
     left: 0;
     top: 120%;
